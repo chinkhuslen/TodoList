@@ -1,0 +1,88 @@
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( 90deg,#8360c3, #2ebf91);
+}
+.border{
+    border: 2px solid red;
+}
+.full{
+    width: 100%;
+    height: 100%;
+}
+.op-0{
+    opacity: 0;
+    display: none !important;
+}
+#listContainer div{
+    margin-bottom: 10px;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexrow{
+    display: flex;
+    flex-direction: row;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#add{
+    margin: 10px auto;
+}
+#add:hover{
+    background-color: teal;
+    color: white;
+}
+.cross{
+    text-decoration: line-through;
+}
+ul,li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+input{
+    margin-right: 10px;
+}
+.off{
+    display: none;
+}
+.inp{
+    border: 1px solid;
+    border-radius: 3px;
+    outline: none;
+    background: transparent;
+    animation: todor 1s ease 1;
+}
+.bck{
+    background-color: #f7f7f7;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 200px;
+    height: 100%;
+}
+@keyframes todor {
+    from
+    {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
